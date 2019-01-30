@@ -1,0 +1,3 @@
+https://www.w3schools.com/css/css_combinators.asp
+
+W3Schools -> Algemene hulp voor css en HTML informatie en basis begrippen.

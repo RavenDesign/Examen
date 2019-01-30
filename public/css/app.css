@@ -1,0 +1,152 @@
+html {
+    height: 117%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 117%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body>header {
+    margin: 0;
+    padding: 0 1em 0 0;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-content: stretch;
+    justify-content: space-between;
+    background-color: rgb(118, 14, 120);
+}
+
+body>header>nav {
+    display: flex;
+    align-content: stretch;
+  
+}
+
+body>header>h1 {
+    color: rgb(250,240,230);;
+}
+
+body>header>nav>a {
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    border: solid white 1px;
+    background-color: black;
+    color: white;
+    font-size: 4em;
+    text-decoration: none;
+}
+
+body>main {
+    margin: 0;
+    padding: 1;
+    box-sizing: border-box;
+    height: 88%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255,248,231);
+}
+
+main>article {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 75%;
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(213, 213, 197);
+}
+
+main>article>header.command-bar {
+    margin: 0;
+    padding: 0 0 0 1em;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(195,94,77);
+}
+
+header.command-bar h2 {
+    color: rgb(250,240,230);
+}
+
+header.command-bar nav {
+    display: flex;
+    align-content: stretch;
+    height: 100%;
+    color: rgb(250,240,230);
+}
+
+header.command-bar nav>a, aside a  {
+    align-self: center;
+    padding: 0;
+    margin: 0;
+    border: solid white 1px;
+    background-color: black;
+    color: white;
+    font-size: 2.5em;
+    text-decoration: none;
+}
+
+aside a {
+    font-size: 1.5em;
+    
+}
+
+main>article>fieldset {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 90%;
+    width: 100%;
+   background-color: rgb(249, 246, 244);
+    
+}
+
+main>aside {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 25%;
+    background-color: rgb(238,238,224);
+}
+
+body>footer {
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   height: 17%;
+    width: 100%;
+    color: rgb(250,240,230);
+    background-color: rgb(65,74,76);
+}
+
+/* accessability */
+.screen-reader-text {
+    /* Reusable, toolbox kind of class
+        voor screen readers, op die manier
+        kunnen de readers lezen waarvoor
+        de knop staat; de tekst is zelf
+        niet zichtbaar op het scherm door negatieve
+        waarden toe te kennen aan top en left */
+    display: none;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
